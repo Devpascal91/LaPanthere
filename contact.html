@@ -5,10 +5,10 @@
 	<meta name="description" content="seo, google, site web, site internet,agence design,web design paris,agence design paris,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
-	<link rel="preload"  href="./css/bootstrap.min.css"as="style">
-	<link rel="preload"  href="./css/font-awesome.min.css"as="style">
-	<link rel="preload"  href="style.css"as="style">
-	<link rel="preload"  href="./css/et-line.min.css"as="style">
+	<link rel="preload"  href="./css/bootstrap.min.css" as="style">
+	<link rel="preload"  href="./css/font-awesome.min.css" as="style">
+	<link rel="preload"  href="style.css" as="style">
+	<link rel="preload"  href="./css/et-line.min.css" as="style">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
@@ -77,7 +77,8 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1">
+				<!-- novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!" -->
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -100,7 +101,8 @@
 						<label for="text-area">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<input id="text-area" class="form-control" rows="4" cols="50" required></input>
+						 <input id="text-area" class="form-control">
+						 <!-- rows="4" cols="50" required -->
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
